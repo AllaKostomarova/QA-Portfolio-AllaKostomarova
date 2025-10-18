@@ -28,6 +28,16 @@
 - **Communities — test design techniques & E2E**  
   → Эквивалентные классы, таблицы решений, сценарии end-to-end.
 
+  ### 📊 Диаграмма состояний модуля «Сообщества»
+
+Схема отображает переходы между экранами и состояниями модуля *«Сообщества»*,  
+а также действия пользователя и API-вызовы (`join_group`, `leave_group`, `group_members`).
+
+- 📎 [Просмотреть диаграмму (PNG)](Frontend/assets/Communities_StateDiagram.drawio.png)
+- 🧩 [Исходный файл (Draw.io)](Frontend/assets/Communities_StateDiagram.drawio)
+
+*Файл PNG используется для просмотра, Draw.io — редактируемый исходник диаграммы.*
+
 ---
 
 ## 🧠 Инструменты и навыки
@@ -64,6 +74,16 @@ All data is anonymized and safe for public sharing.
   → Functional, integration, and system testing examples.  
 - **Communities — test design techniques & E2E**  
   → Equivalence classes, decision tables, and end-to-end test scenarios.
+
+  ### 📊 State Transition Diagram — “Communities” Module
+
+This diagram illustrates user flows and state transitions inside the *Communities* module,  
+including user actions and API-driven events (`join_group`, `leave_group`, `group_members`).
+
+- 📎 [View diagram (PNG)](Frontend/assets/Communities_StateDiagram.drawio.png)
+- 🧩 [Editable source (Draw.io)](Frontend/assets/Communities_StateDiagram.drawio)
+
+*The PNG file is for preview; the Draw.io version contains the editable source diagram.*
 
 ---
 
