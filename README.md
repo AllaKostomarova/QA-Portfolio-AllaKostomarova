@@ -11,7 +11,7 @@
 ## 🧩 Структура портфолио
 
 ### ⚙️ Backend Testing
-- **[TrainerDisableFlag — API logic and automation](Backend/QA_Backend_TrainerDisableFlag.pdf)**  
+- **[TrainerDisableFlag — API logic and automation](Backend/QA_Backend_TrainerDisableFlag_API_Checks&Automation.pdf)**  
   → Логика блокировки запросов тренерского приложения, 350+ комбинаций состояний, автоматизация Postman.  
 - **[RulesAcceptance — API checks](Backend/QA_Backend_RulesAcceptance_Checklist&Bugs.pdf)**  
   → Проверка обязательного ознакомления с правилами клуба.  
@@ -19,13 +19,13 @@
   → Проверка корректности расчётов и JSON-структур отчёта клиента.  
 
 ### 🎨 Frontend Testing
-- **[RulesAcceptance — UI behaviour](Frontend/frontend_ознакомлением_с_правилами_клуба-чек-лист_баги.pdf)**  
+- **[RulesAcceptance — UI behaviour](Frontend/QA_Frontend_RulesAcceptance_Checklist&Bugs.pdf)**  
   → Отображение модального окна, UX-устойчивость, блокировка интерфейса.  
-- **[PersonalDataConsent — authorization logic](Frontend/frontend_добавление_чек-бокса_Персональные_данные-чек-лист-баги.pdf)**  
+- **[PersonalDataConsent — authorization logic](Frontend/QA_Frontend_PersonalDataConsent_Authorization.pdf)**  
   → Новое поле «Согласие на обработку ПД» в форме авторизации.  
-- **[Communities — testing types](Frontend/frontend_Сообщества-типы_тестирования.pdf)**  
+- **[Communities — testing types](Frontend/QA_Frontend_Communities_TypesOfTesting.pdf)**  
   → Применение функционального, интеграционного и системного тестирования.  
-- **[Communities — test design techniques & E2E](Frontend/frontend_Сообщества-техники_тест-дизайна_е2е_кейсы.pdf)**  
+- **[Communities — test design techniques & E2E](Frontend/QA_Frontend_Communities_TestDesign_E2E.pdf)**  
   → Эквивалентные классы, таблицы решений, сценарии end-to-end.  
 
 #### 📊 Диаграмма состояний модуля «Сообщества»
@@ -58,7 +58,7 @@ All data is anonymized and safe for public sharing.
 ### Structure
 
 #### ⚙️ Backend Testing
-- **[TrainerDisableFlag — API logic and automation](Backend/QA_Backend_TrainerDisableFlag.pdf)**  
+- **[TrainerDisableFlag — API logic and automation](Backend/QA_Backend_TrainerDisableFlag_API_Checks&Automation.pdf)**  
   → Postman automation for 350+ endpoint combinations under different flag and token states.  
 - **[RulesAcceptance — API checks](Backend/QA_Backend_RulesAcceptance_Checklist&Bugs.pdf)**  
   → Verification of club rules acceptance logic and configuration flags.  
@@ -66,13 +66,13 @@ All data is anonymized and safe for public sharing.
   → Validation of calculated values and JSON structures for AI reports.
 
 #### 🎨 Frontend Testing
-- **[RulesAcceptance — UI behaviour](Frontend/frontend_ознакомлением_с_правилами_клуба-чек-лист_баги.pdf)**  
+- **[RulesAcceptance — UI behaviour](Frontend/QA_Frontend_RulesAcceptance_Checklist&Bugs.pdf)**  
   → Testing modal behaviour, UX persistence, and screen blocking.  
-- **[PersonalDataConsent — authorization logic](Frontend/frontend_добавление_чек-бокса_Персональные_данные-чек-лист-баги.pdf)**  
+- **[PersonalDataConsent — authorization logic](Frontend/QA_Frontend_PersonalDataConsent_Authorization.pdf)**  
   → New checkbox for personal data consent during login flow.  
-- **[Communities — testing types](Frontend/frontend_Сообщества-типы_тестирования.pdf)**  
+- **[Communities — testing types](Frontend/QA_Frontend_Communities_TypesOfTesting.pdf)**  
   → Functional, integration, and system testing examples.  
-- **[Communities — test design techniques & E2E](Frontend/frontend_Сообщества-техники_тест-дизайна_е2е_кейсы.pdf)**  
+- **[Communities — test design techniques & E2E](Frontend/QA_Frontend_Communities_TestDesign_E2E.pdf)**  
   → Equivalence classes, decision tables, and end-to-end test scenarios.  
 
 #### 📊 State Transition Diagram — “Communities” Module
