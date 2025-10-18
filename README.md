@@ -11,29 +11,29 @@
 ## 🧩 Структура портфолио
 
 ### ⚙️ Backend Testing
-- **TrainerDisableFlag — API logic and automation**  
-  → Логика блокировки запросов тренерского приложения, 350+ комбинаций состояний, автоматизация Postman.
-- **RulesAcceptance — API checks**  
-  → Проверка обязательного ознакомления с правилами клуба.
-- **AI Report — data validation**  
-  → Проверка корректности расчётов и JSON-структур отчёта клиента.
+- **[TrainerDisableFlag — API logic and automation](Backend/QA_Backend_TrainerDisableFlag.pdf)**  
+  → Логика блокировки запросов тренерского приложения, 350+ комбинаций состояний, автоматизация Postman.  
+- **[RulesAcceptance — API checks](Backend/QA_Backend_RulesAcceptance_Checklist&Bugs.pdf)**  
+  → Проверка обязательного ознакомления с правилами клуба.  
+- **[AI Report — data validation](Backend/QA_Backend_AIReport_Checklist&Bugs.pdf)**  
+  → Проверка корректности расчётов и JSON-структур отчёта клиента.  
 
 ### 🎨 Frontend Testing
-- **RulesAcceptance — UI behaviour**  
-  → Отображение модального окна, UX-устойчивость, блокировка интерфейса.
-- **PersonalDataConsent — authorization logic**  
-  → Новое поле «Согласие на обработку ПД» в форме авторизации.
-- **Communities — testing types**  
-  → Применение функционального, интеграционного и системного тестирования.
-- **Communities — test design techniques & E2E**  
-  → Эквивалентные классы, таблицы решений, сценарии end-to-end.
+- **[RulesAcceptance — UI behaviour](Frontend/frontend_ознакомлением_с_правилами_клуба-чек-лист_баги.pdf)**  
+  → Отображение модального окна, UX-устойчивость, блокировка интерфейса.  
+- **[PersonalDataConsent — authorization logic](Frontend/frontend_добавление_чек-бокса_Персональные_данные-чек-лист-баги.pdf)**  
+  → Новое поле «Согласие на обработку ПД» в форме авторизации.  
+- **[Communities — testing types](Frontend/frontend_Сообщества-типы_тестирования.pdf)**  
+  → Применение функционального, интеграционного и системного тестирования.  
+- **[Communities — test design techniques & E2E](Frontend/frontend_Сообщества-техники_тест-дизайна_е2е_кейсы.pdf)**  
+  → Эквивалентные классы, таблицы решений, сценарии end-to-end.  
 
-  ### 📊 Диаграмма состояний модуля «Сообщества»
+#### 📊 Диаграмма состояний модуля «Сообщества»
 
 Схема отображает переходы между экранами и состояниями модуля *«Сообщества»*,  
 а также действия пользователя и API-вызовы (`join_group`, `leave_group`, `group_members`).
 
-- 📎 [Просмотреть диаграмму (PNG)](Frontend/assets/Communities_StateDiagram.drawio.png)
+- 📎 [Просмотреть диаграмму (PNG)](Frontend/assets/Communities_StateDiagram.drawio.png)  
 - 🧩 [Исходный файл (Draw.io)](Frontend/assets/Communities_StateDiagram.drawio)
 
 *Файл PNG используется для просмотра, Draw.io — редактируемый исходник диаграммы.*
@@ -58,29 +58,29 @@ All data is anonymized and safe for public sharing.
 ### Structure
 
 #### ⚙️ Backend Testing
-- **TrainerDisableFlag — API logic and automation**  
+- **[TrainerDisableFlag — API logic and automation](Backend/QA_Backend_TrainerDisableFlag.pdf)**  
   → Postman automation for 350+ endpoint combinations under different flag and token states.  
-- **RulesAcceptance — API checks**  
+- **[RulesAcceptance — API checks](Backend/QA_Backend_RulesAcceptance_Checklist&Bugs.pdf)**  
   → Verification of club rules acceptance logic and configuration flags.  
-- **AI Report — data validation**  
+- **[AI Report — data validation](Backend/QA_Backend_AIReport_Checklist&Bugs.pdf)**  
   → Validation of calculated values and JSON structures for AI reports.
 
 #### 🎨 Frontend Testing
-- **RulesAcceptance — UI behaviour**  
+- **[RulesAcceptance — UI behaviour](Frontend/frontend_ознакомлением_с_правилами_клуба-чек-лист_баги.pdf)**  
   → Testing modal behaviour, UX persistence, and screen blocking.  
-- **PersonalDataConsent — authorization logic**  
+- **[PersonalDataConsent — authorization logic](Frontend/frontend_добавление_чек-бокса_Персональные_данные-чек-лист-баги.pdf)**  
   → New checkbox for personal data consent during login flow.  
-- **Communities — testing types**  
+- **[Communities — testing types](Frontend/frontend_Сообщества-типы_тестирования.pdf)**  
   → Functional, integration, and system testing examples.  
-- **Communities — test design techniques & E2E**  
-  → Equivalence classes, decision tables, and end-to-end test scenarios.
+- **[Communities — test design techniques & E2E](Frontend/frontend_Сообщества-техники_тест-дизайна_е2е_кейсы.pdf)**  
+  → Equivalence classes, decision tables, and end-to-end test scenarios.  
 
-  ### 📊 State Transition Diagram — “Communities” Module
+#### 📊 State Transition Diagram — “Communities” Module
 
 This diagram illustrates user flows and state transitions inside the *Communities* module,  
 including user actions and API-driven events (`join_group`, `leave_group`, `group_members`).
 
-- 📎 [View diagram (PNG)](Frontend/assets/Communities_StateDiagram.drawio.png)
+- 📎 [View diagram (PNG)](Frontend/assets/Communities_StateDiagram.drawio.png)  
 - 🧩 [Editable source (Draw.io)](Frontend/assets/Communities_StateDiagram.drawio)
 
 *The PNG file is for preview; the Draw.io version contains the editable source diagram.*
